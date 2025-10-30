@@ -8,9 +8,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div >
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sit inventore nulla hic repellat explicabo tenima distinctio error exercitationem. Fuga.
-     </div>
+    <>
+  <h1 className='text-3xl bg-orange-500'> currency app</h1>
+    </>
   )
 }
 
