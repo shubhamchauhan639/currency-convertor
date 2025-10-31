@@ -10,4 +10,4 @@ function useCurrency (currency){
     return data
     
 }
-export default useCurrency;
+export default useCurrentinfo;
