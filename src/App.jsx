@@ -5,11 +5,13 @@ import useCurrency from './hooks/useCurrencyinfo'
 
 function App() {
   const [amount, setAmmount] = useState(0)
-  const [from, setFrom] = useState("usd")
+  const [from, setFrom] = useState("inr")
   const [to, setto] = useState("usd")
   const [convertedAmmount, setConvertedAmmount] = useState("0")
 
   const currencyInfo = useCurrency(from)
+
+
   const options = currencyInfo ? Object.keys(currencyInfo) : []
 
   const swap = () => {
